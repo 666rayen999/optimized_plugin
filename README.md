@@ -19,7 +19,7 @@ It focuses on producing faster-to-build, more portable, and less dependency-heav
 
 Enable the plugin during compilation:
 ```console
-jai main.jai +Optimized
+jai main.jai +Optimize
 ```
 
 ## Disclamer
