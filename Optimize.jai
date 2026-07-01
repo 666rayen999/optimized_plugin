@@ -84,7 +84,8 @@ message :: inline (p: *Metaprogram_Plugin, message: *Message) {
             add(*arguments, "/RELEASE");
             add(*arguments, "/LTCG");
             add(*arguments, "/DEBUG:NONE");
-            add(*arguments, "/SUBSYSTEM:WINDOWS");
+            // uncomment this line of you dont need the console
+            // add(*arguments, "/SUBSYSTEM:WINDOWS");
             add(*arguments, "/ENTRY:mainCRTStartup");
             {
                 vc_path := find_visual_studio_in_a_ridiculous_garbage_way();
