@@ -15,7 +15,7 @@ It focuses on producing faster-to-build, more portable, and less dependency-heav
 
 ## Usage
 
-*First yout have to put Optimized_Plugin.jai in* ***modules***
+*First yout have to put Optimize.jai in* ***modules***
 
 Enable the plugin during compilation:
 ```console
