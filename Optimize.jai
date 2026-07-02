@@ -107,8 +107,6 @@ message :: inline (p: *Metaprogram_Plugin, message: *Message) {
     }
 }
 
-nothing :: inline (_: *Metaprogram_Plugin) { }
-
 ARGUMENTS: [1024]string;
 
 #import "Compiler";
