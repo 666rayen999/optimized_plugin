@@ -1,12 +1,12 @@
 # Optimized_Plugin
 
-Optimized_Plugin is a metaprogram plugin for the Jai language that improves Windows executable builds by switching to the LLVM linker (lld-link) and enforcing static runtime linking.
+Optimized_Plugin is a metaprogram plugin for the Jai language that improves Windows executable builds by switching to the RAD linker (radlink) from [raddebugger](https://github.com/EpicGames/raddebugger) and enforcing static runtime linking.
 
 It focuses on producing faster-to-build, more portable, and less dependency-heavy executables.
 
 ## Features
 
-- Uses LLVM LLD linker (lld-link) instead of MSVC link.exe (you must have lld-link.exe in PATH)
+- Uses the RAD linker (radlink) instead of MSVC link.exe (you must have radlink.exe in PATH)
 - Forces static linking of Windows runtimes: (ucrt, vcruntime, msvcrt, msvcprt)
 - Reduces dependency on external runtime DLLs
 - Produces self-contained Windows .exe files
